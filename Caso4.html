@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caso4</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Dado N calcular: (11)+(22)+(33)+……(NN)</h1>
+    </div>
+    <div>
+        <script>
+            let sum=0,i=1,N;
+            N=parseInt(prompt("Ingresa el valor de N:"));
+            while (i <= N) {
+                sum += 11 * i;
+                i++;
+            }
+
+            document.write(`El resultado es:`+sum);
+        </script>
+    </div>
+
+</body>
+</html>

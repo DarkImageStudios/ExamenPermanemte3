@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caso2</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="contenedor">
+        <h1>Imprimir los numero múltiplos de 7 comprendidos entre 100 y 300 con excepción de los comprendido entre 120 y 180.</h1>
+    <div>
+        <script>
+            for (var i = 100; i <= 300; i++) {
+            if (i % 7 === 0 && (i < 120 || i > 180)) {
+                document.write(i + "<br>");
+            }
+        }
+        </script>
+    </div>
+
+</body>
+</html>
